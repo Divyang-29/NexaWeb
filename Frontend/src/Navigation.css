@@ -1,0 +1,52 @@
+.navbar {
+  height: 70px; /* fixed height */
+  padding: 0 !important;
+  background-color: #111827;
+  color: #ffffff;
+}
+
+.navbar-brand img {
+  max-height: 110px; /* logo size */
+  width: auto;
+}
+
+.navbar-brand {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  margin-left: auto; /* pushes menu to the right */
+  gap: 14px;
+  margin-right: 14px;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center; /* vertically centers <p> */
+  height: 70px; /* same as navbar */
+  padding: 0 14px;
+}
+
+.navbar-nav .nav-link p {
+  margin: 0; /* remove extra spacing */
+  display: flex;
+  align-items: center; /* ensure perfect centering */
+}
+
+.menu:hover {
+  color: #d4af37;
+}
+
+/* Active/selected menu */
+.menu.selected {
+  color: #d4af37;
+  font-weight: 600; /* optional, for emphasis */
+}
+
+/* Ensure links don't mess with text color */
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}

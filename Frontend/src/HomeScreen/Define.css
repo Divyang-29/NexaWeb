@@ -1,0 +1,12 @@
+.Define-image {
+  height: 600px;
+  width: 100%;
+}
+
+.define-text-section {
+  padding: 14px;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  line-height: 1.6;
+}

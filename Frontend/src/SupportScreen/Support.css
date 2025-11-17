@@ -1,0 +1,28 @@
+.support-form {
+  max-width: 650px;
+  margin: auto;
+}
+
+.support-image {
+  max-width: 90%;
+  height: auto;
+}
+
+.support-container {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.support-form .form-control,
+.support-form .form-select {
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .support-form .form-control,
+  .support-form .form-select {
+    max-width: 95%;
+  }
+}

@@ -1,0 +1,28 @@
+.product-page .section-title {
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.product-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #e3e3e3;
+  transition: all 0.3s ease;
+  background: #fff;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.product-card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #1b7ced;
+  margin-bottom: 8px;
+}

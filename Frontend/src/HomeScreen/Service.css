@@ -1,0 +1,53 @@
+.service-paragraph{
+    font-size: 16px !important;
+    font-weight: 400;
+}
+h3{
+    font-weight: 600;
+}
+
+.service-card{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    height: 250px;
+    width: 100%;
+    padding: 18px;
+}
+
+p{
+    opacity: 0.6;
+}
+
+.service-paragraph {
+  max-width: 93%;
+  margin: auto;
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.service-box {
+  width: 100%;
+  max-width: 22rem;
+  padding: 15px;
+  border-radius: 14px;
+  transition: all 0.3s ease;
+  border: 1px solid #eaeaea;
+  background: #ffffff;
+}
+
+.service-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  border-color: #d5d5d5;
+}
+
+.service-img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}

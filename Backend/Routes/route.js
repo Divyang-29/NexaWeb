@@ -20,13 +20,18 @@ router.post("/contact-us", async (req, res) => {
     const formData = new Support(req.body);
     await formData.save();
 
-    res.status(201).json({
+    return res.status(201).json({
       success: true,
       message: "Form submitted successfully!",
       data: formData,
     });
   } catch (err) {
-    console.log(err);
+    console.error(err);
+    return res.status(500).json({
+      success: false,
+      message: "Server error. Please try again later.",
+      error: err.message,
+    });
   }
 });
 

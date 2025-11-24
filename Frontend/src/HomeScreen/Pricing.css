@@ -11,9 +11,7 @@
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0,0,0,0.08);
 }
-.featured-card {
-  border: 2px solid #28a745;
-}
+
 .card-price {
   font-size: 1.3rem;
   font-weight: 600;

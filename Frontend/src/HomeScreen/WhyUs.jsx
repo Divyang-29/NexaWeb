@@ -5,7 +5,7 @@ export default function WhyUs() {
     <div className="container py-5">
       <div className="row mb-4">
         <div className="col text-center">
-          <h5 className="text-uppercase">Why Choose Us</h5>
+          <h5 className="text-uppercase" style={{color:"#6c3bdf"}}>Why Choose Us</h5>
           <h3>Why Businesses Trust Nexaweb</h3>
           <p className="w-75 mx-auto">
             Your website shouldn’t just exist — it should work for your

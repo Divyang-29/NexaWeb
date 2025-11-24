@@ -4,16 +4,16 @@ import "./Define.css";
 export default function Define() {
   return (
     <div className="container">
-      <div className="row">
+      <div className="row give-margin">
         <div className="col-6">
           <img
             src={coding}
             alt="Define Section Image"
-            className="Define-image"
+            className="Define-image p-2 mt-5"
           />
         </div>
         <div className="col-6 define-text-section">
-          <h4>Define us!</h4>
+          <h4 style={{color:"#6c3bdf"}}>Define us!</h4>
           <h2>
             Welcome to Nexaweb – Your Trusted Partner for Web & App Development
           </h2>

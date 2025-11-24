@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SupportPage from "../assets/Images/Support_page.jpg";
+import SupportPage from "../assets/Images/bg-support.png";
 import "./Support.css";
 
 export default function Support() {
@@ -64,14 +64,14 @@ export default function Support() {
   return (
     <div className="support-container container py-5">
       <div className="row align-items-center">
-        <h2 className="text-center fw-bold mb-2">Contact Support</h2>
-        <p className="text-center text-muted mb-5">
+        <h2 className="text-center fw-bold mb-2" style={{color:"#6c3bdf"}}>Contact Support</h2>
+        <p className="text-center mb-5">
           Need help or want to start a project? Fill out the form and our team
           will contact you.
         </p>
 
         {/* Left Form */}
-        <div className="col-md-6">
+        <div className="col-md-6 upper">
           <form
             className={`row g-3 needs-validation support-form p-4 rounded shadow-sm ${
               validated ? "was-validated" : ""
@@ -193,7 +193,7 @@ export default function Support() {
             </div>
 
             <div className="col-12">
-              <button className="btn btn-primary w-100" type="submit">
+              <button className="btn btn-primary w-100" type="submit" style={{backgroundColor:"#6c3bdf",border:"none"}}>
                 Send Message
               </button>
             </div>
@@ -203,7 +203,7 @@ export default function Support() {
         </div>
 
         {/* Right Image */}
-        <div className="col-md-6 text-center mt-4 mt-md-0">
+        <div className="col-md-6 text-center upper">
           <img
             src={SupportPage}
             alt="Office"

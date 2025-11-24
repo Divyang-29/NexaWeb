@@ -7,7 +7,7 @@ export default function Pricing() {
       {/* Heading Section */}
       <div className="row mb-5">
         <div className="col text-center">
-          <h5>Web Development and Website Design</h5>
+          <h5 style={{color:"#6c3bdf"}}>Web Development and Website Design</h5>
           <h4>Plans & Pricing</h4>
           <p style={{ opacity: "1", lineHeight: "1.6" }}>
             Nexaweb is a new-age web solutions startup in India, offering customized,
@@ -25,7 +25,7 @@ export default function Pricing() {
         <div className="col-md-4">
           <div className="card pricing-card h-100">
             <div className="card-body text-center">
-              <h5 className="card-title">⭐ Standard Plan</h5>
+              <h5 className="card-title" style={{color:"#6c3bdf"}}>⭐ Standard Plan</h5>
               <h6 className="card-price">₹9,999 - ₹14,999</h6>
               <p className="card-text">Perfect for startups & small businesses.</p>
               <ul className="list-unstyled text-start ps-3">
@@ -36,7 +36,6 @@ export default function Pricing() {
                 <li>✔ Basic On-page SEO</li>
                 <li>✔ 1 Month Support</li>
               </ul>
-              <a href="#" className="btn btn-primary w-100 mt-3">Get Started</a>
             </div>
           </div>
         </div>
@@ -45,7 +44,7 @@ export default function Pricing() {
         <div className="col-md-4">
           <div className="card pricing-card h-100 featured-card">
             <div className="card-body text-center">
-              <h5 className="card-title">🚀 Premium Plan</h5>
+              <h5 className="card-title" style={{color:"#6c3bdf"}}>🚀 Premium Plan</h5>
               <h6 className="card-price">₹19,999 - ₹39,999</h6>
               <p className="card-text">Great for growing businesses & service providers.</p>
               <ul className="list-unstyled text-start ps-3">
@@ -56,7 +55,6 @@ export default function Pricing() {
                 <li>✔ Speed + Advanced SEO</li>
                 <li>✔ 2 Months Support</li>
               </ul>
-              <a href="#" className="btn btn-success w-100 mt-3">Choose Premium</a>
             </div>
           </div>
         </div>
@@ -65,7 +63,7 @@ export default function Pricing() {
         <div className="col-md-4">
           <div className="card pricing-card h-100">
             <div className="card-body text-center">
-              <h5 className="card-title">💎 Custom Plan</h5>
+              <h5 className="card-title" style={{color:"#6c3bdf"}}>💎 Custom Plan</h5>
               <h6 className="card-price">Custom Quote</h6>
               <p className="card-text">Tailored for your unique business needs.</p>
               <ul className="list-unstyled text-start ps-3">
@@ -75,7 +73,6 @@ export default function Pricing() {
                 <li>✔ Custom Animations</li>
                 <li>✔ Priority Support</li>
               </ul>
-              <a href="#" className="btn btn-dark w-100 mt-3">Request Quote</a>
             </div>
           </div>
         </div>

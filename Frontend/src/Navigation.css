@@ -1,13 +1,15 @@
 .navbar {
   height: 70px; /* fixed height */
   padding: 0 !important;
-  background-color: #111827;
+  background-color: #05000f;
   color: #ffffff;
+  border-bottom:0.8px solid #321b52 ;
 }
 
 .navbar-brand img {
-  max-height: 110px; /* logo size */
+  max-height: 90px; /* logo size */
   width: auto;
+  margin-bottom: 10px;
 }
 
 .navbar-brand {
@@ -36,12 +38,12 @@
 }
 
 .menu:hover {
-  color: #d4af37;
+  color: #6c3bdf;
 }
 
 /* Active/selected menu */
 .menu.selected {
-  color: #d4af37;
+  color: #6c3bdf;
   font-weight: 600; /* optional, for emphasis */
 }
 

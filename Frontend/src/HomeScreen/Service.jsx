@@ -12,7 +12,7 @@ export default function Service() {
       {/* Heading */}
       <div className="row">
         <div className="col text-center">
-          <h3 className="fw-bold">Our Services</h3>
+          <h3 className="fw-bold" style={{color:"#6c3bdf"}}>Our Services</h3>
           <p className="service-paragraph">
             Nexaweb delivers everything you need to build a powerful online
             presence. From clean UI design to dynamic web development, we create

@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8080;
 app.use(express.json());
 app.use(cors());
 
-app.use("/nexaweb", router);
+app.use("/", router);
 
 const connectDB = async () => {
   try {

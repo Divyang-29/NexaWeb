@@ -76,7 +76,7 @@ export default function Support() {
         </p>
 
         {/* Left Form */}
-        <div className="col-md-6 upper">
+        <div className="col-md-6 upper mt-2">
           <form
             className={`row g-3 needs-validation support-form p-4 rounded shadow-sm ${
               validated ? "was-validated" : ""
@@ -212,7 +212,7 @@ export default function Support() {
         </div>
 
         {/* Right Image */}
-        <div className="col-md-6 text-center upper support-image-col">
+        <div className="col-md-6 text-center upper support-image-col mt-3">
           <img src={SupportPage} className="support-image img-fluid" />
         </div>
       </div>

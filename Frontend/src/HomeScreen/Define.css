@@ -1,17 +1,77 @@
+/* ---------------------- */
+/* DESKTOP STYLES (same)  */
+/* ---------------------- */
+
 .Define-image {
-  height: 600px;
   width: 100%;
+  height: 600px;     /* keeps your original look */
+  object-fit: cover; /* prevents stretching */
+  border-radius: 10px;
 }
 
 .define-text-section {
   padding: 14px;
   margin: auto;
+  line-height: 1.6;
   position: relative;
   top: 30px;
-  line-height: 1.6;
 }
 
-.give-margin{
+.give-margin {
   margin-bottom: 60px;
   margin-top: 60px;
+}
+
+/* -------------------------------- */
+/* MOBILE + TABLET RESPONSIVE FIXES */
+/* -------------------------------- */
+
+@media (max-width: 991px) {
+  .Define-image {
+    height: 400px;         /* reduce height for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+
+  .give-margin {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .Define-image {
+    height: auto;          /* allow natural scaling */
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .define-text-section {
+    top: 0;                /* REMOVE offset on mobile */
+    text-align: center;    /* improve readability */
+    padding: 10px;
+  }
+
+  .define-text-section h2 {
+    font-size: 22px;
+  }
+
+  .define-text-section p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .Define-image {
+    max-width: 100%;
+  }
+
+  .define-text-section h2 {
+    font-size: 20px;
+  }
+
+  .define-text-section p {
+    font-size: 14px;
+  }
 }

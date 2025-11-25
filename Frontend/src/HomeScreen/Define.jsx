@@ -3,17 +3,20 @@ import "./Define.css";
 
 export default function Define() {
   return (
-    <div className="container">
-      <div className="row give-margin">
-        <div className="col-6">
+    <div className="container define-container">
+      <div className="row give-margin align-items-center">
+        {/* Image Section */}
+        <div className="col-lg-6 col-md-6 col-12 text-center mb-4">
           <img
             src={coding}
             alt="Define Section Image"
-            className="Define-image p-2 mt-5"
+            className="Define-image img-fluid"
           />
         </div>
-        <div className="col-6 define-text-section">
-          <h4 style={{color:"#6c3bdf"}}>Define us!</h4>
+
+        {/* Text Section */}
+        <div className="col-lg-6 col-md-6 col-12 define-text-section">
+          <h4 style={{ color: "#6c3bdf" }}>Define us!</h4>
           <h2>
             Welcome to Nexaweb – Your Trusted Partner for Web & App Development
           </h2>
@@ -21,16 +24,11 @@ export default function Define() {
             Nexaweb is a dedicated freelance web development and app development
             service provider in India. We focus on delivering modern,
             high-performance digital solutions that help businesses grow online.
-            With a strong commitment to quality and reliability, we build
-            responsive websites, custom web applications, and user-friendly
-            mobile apps tailored to your goals.
           </p>
           <p>
             Our work is designed to bring real value. From sleek business
             websites to feature-rich platforms, we ensure every project looks
-            great, functions smoothly, and supports measurable results. Nexaweb
-            blends creativity with clean development to help you establish a
-            strong and professional digital presence.
+            great, functions smoothly, and supports measurable results.
           </p>
         </div>
       </div>

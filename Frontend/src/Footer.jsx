@@ -22,15 +22,15 @@ export default function Footer() {
           <Typography variant="h6" className="footer-title">
             Quick Links
           </Typography>
-          <Link href="/nexaweb/home" className="footer-link">
+          <Link href="/home" className="footer-link">
             Home
           </Link>
           <br />
-          <Link href="/nexaweb/product" className="footer-link">
+          <Link href="/product" className="footer-link">
             Product
           </Link>
           <br />
-          <Link href="/nexaweb/contact-us" className="footer-link">
+          <Link href="/contact-us" className="footer-link">
             Contact Us
           </Link>
         </Grid>

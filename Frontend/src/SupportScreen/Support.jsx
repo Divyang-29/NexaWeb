@@ -34,11 +34,14 @@ export default function Support() {
     setStatus("Sending...");
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/nexaweb/contact-us`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+      const res = await fetch(
+        `${import.meta.env.VITE_API_URL}/nexaweb/contact-us`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (res.ok) {
         setStatus("Message Sent Successfully!");
@@ -64,7 +67,9 @@ export default function Support() {
   return (
     <div className="support-container container py-5">
       <div className="row align-items-center">
-        <h2 className="text-center fw-bold mb-2" style={{color:"#6c3bdf"}}>Contact Support</h2>
+        <h2 className="text-center fw-bold mb-2" style={{ color: "#6c3bdf" }}>
+          Contact Support
+        </h2>
         <p className="text-center mb-5">
           Need help or want to start a project? Fill out the form and our team
           will contact you.
@@ -193,7 +198,11 @@ export default function Support() {
             </div>
 
             <div className="col-12">
-              <button className="btn btn-primary w-100" type="submit" style={{backgroundColor:"#6c3bdf",border:"none"}}>
+              <button
+                className="btn btn-primary w-100"
+                type="submit"
+                style={{ backgroundColor: "#6c3bdf", border: "none" }}
+              >
                 Send Message
               </button>
             </div>
@@ -203,12 +212,8 @@ export default function Support() {
         </div>
 
         {/* Right Image */}
-        <div className="col-md-6 text-center upper">
-          <img
-            src={SupportPage}
-            alt="Office"
-            className="support-image img-fluid"
-          />
+        <div className="col-md-6 text-center upper support-image-col">
+          <img src={SupportPage} className="support-image img-fluid" />
         </div>
       </div>
     </div>

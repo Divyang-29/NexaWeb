@@ -1,3 +1,7 @@
+/* -------------------------- */
+/* DESKTOP STYLES (unchanged) */
+/* -------------------------- */
+
 .support-form {
   max-width: 650px;
   margin: auto;
@@ -27,8 +31,69 @@
   }
 }
 
+/* Remove destructive negative margins on desktop */
+.upper {
+  margin-top: -80px;
+  margin-bottom: -120px;
+}
 
-.upper{
-  margin-top: -140px;
-  margin-bottom: -200px;
+/* -------------------------- */
+/* MOBILE + TABLET FIXES      */
+/* -------------------------- */
+
+@media (max-width: 991px) {
+  .upper {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .support-container {
+    margin-top: 10px;
+  }
+
+  .support-form {
+    padding: 20px;
+  }
+
+  .support-image {
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .support-container {
+    padding-top: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .support-form {
+    box-shadow: none;
+  }
+
+  .support-image {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .support-image {
+    width: 85%;
+  }
+
+  .support-form {
+    padding: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .support-image,
+  .support-image-col {
+    display: none !important;
+  }
 }

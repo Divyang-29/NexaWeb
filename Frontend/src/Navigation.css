@@ -1,13 +1,22 @@
+/* ------------------------- */
+/* DESKTOP DEFAULT STYLES   */
+/* ------------------------- */
+
 .navbar {
-  height: 70px; /* fixed height */
+  height: 70px;
   padding: 0 !important;
   background-color: #05000f;
   color: #ffffff;
-  border-bottom:0.8px solid #321b52 ;
+  border-bottom: 0.8px solid #321b52;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 .navbar-brand img {
-  max-height: 90px; /* logo size */
+  max-height: 90px;
   width: auto;
   margin-bottom: 10px;
 }
@@ -19,36 +28,94 @@
 }
 
 .navbar-nav {
-  margin-left: auto; /* pushes menu to the right */
+  margin-left: auto;
   gap: 14px;
   margin-right: 14px;
 }
 
 .navbar-nav .nav-link {
   display: flex;
-  align-items: center; /* vertically centers <p> */
-  height: 70px; /* same as navbar */
+  align-items: center;
+  height: 70px;
   padding: 0 14px;
 }
 
 .navbar-nav .nav-link p {
-  margin: 0; /* remove extra spacing */
+  margin: 0;
   display: flex;
-  align-items: center; /* ensure perfect centering */
+  align-items: center;
 }
 
 .menu:hover {
   color: #6c3bdf;
 }
 
-/* Active/selected menu */
 .menu.selected {
   color: #6c3bdf;
-  font-weight: 600; /* optional, for emphasis */
+  font-weight: 600;
 }
 
-/* Ensure links don't mess with text color */
 .nav-link {
   text-decoration: none;
   color: inherit;
+}
+
+/* ------------------------- */
+/* MOBILE RESPONSIVE FIXES  */
+/* ------------------------- */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto; /* allow natural height */
+    padding: 10px 15px !important;
+  }
+
+  .navbar-brand img {
+    max-height: 55px;
+    margin-bottom: 0;
+  }
+
+  /* Fix hamburger alignment */
+  .navbar-toggler {
+    border: none;
+    filter: invert(1); /* makes it white */
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  /* When menu collapses */
+  .navbar-nav {
+    margin: 10px 0 0 0;
+    gap: 0;
+  }
+
+  .navbar-nav .nav-link {
+    height: auto;
+    padding: 12px 10px;
+    display: block;
+  }
+
+  .navbar-nav .nav-link p {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+}
+
+/* Make navbar fixed */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Fix mobile toggle icon color */
+.navbar-toggler {
+  border: none;
+  filter: invert(1);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }

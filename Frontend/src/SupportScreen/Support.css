@@ -90,10 +90,17 @@
   }
 }
 
-
 @media (max-width: 768px) {
   .support-image,
   .support-image-col {
     display: none !important;
   }
+}
+
+.support-form input,
+.support-form select,
+.support-form textarea {
+  background: #1b102b !important; /* light purple */
+  border: 1px solid #321b52 !important; /* purple border */
+  color: #6e3cd3 !important; /* dark text */
 }

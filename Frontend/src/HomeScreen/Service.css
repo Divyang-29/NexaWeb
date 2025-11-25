@@ -1,24 +1,24 @@
-.service-paragraph{
-    font-size: 16px !important;
-    font-weight: 400;
+.service-paragraph {
+  font-size: 16px !important;
+  font-weight: 400;
 }
-h3{
-    font-weight: 600;
-}
-
-.service-card{
-    display: flex;
-    justify-content: space-around;
+h3 {
+  font-weight: 600;
 }
 
-img{
-    height: 250px;
-    width: 100%;
-    padding: 18px;
+.service-card {
+  display: flex;
+  justify-content: space-around;
 }
 
-p{
-    opacity: 0.6;
+img {
+  height: 250px;
+  width: 100%;
+  padding: 18px;
+}
+
+p {
+  opacity: 0.6;
 }
 
 .service-paragraph {
@@ -41,7 +41,7 @@ p{
 
 .service-box:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   border-color: #d5d5d5;
 }
 
@@ -50,4 +50,9 @@ p{
   max-height: 180px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.spotlight-custom-bg {
+  background: #1b102b !important;
+  border: 1px solid #321b52 !important;
 }

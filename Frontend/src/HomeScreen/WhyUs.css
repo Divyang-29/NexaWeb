@@ -2,11 +2,13 @@
   border: 1px solid #e8e8e8;
   border-radius: 12px;
   transition: all 0.3s ease;
-  background: #ffffff;
+  background: #1b102b !important;
+  color: #fff;
+  border: 1px solid #321b52 !important;
 }
 .choose-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
 .container h5 {
   letter-spacing: 1px;

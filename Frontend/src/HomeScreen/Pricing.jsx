@@ -25,7 +25,7 @@ export default function Pricing() {
         <div className="col-md-4">
           <div className="card pricing-card h-100">
             <div className="card-body text-center">
-              <h5 className="card-title" style={{color:"#6c3bdf"}}>⭐ Standard Plan</h5>
+              <h5 className="card-title" style={{color:"#fff"}}>⭐ Standard Plan</h5>
               <h6 className="card-price">₹9,999 - ₹14,999</h6>
               <p className="card-text">Perfect for startups & small businesses.</p>
               <ul className="list-unstyled text-start ps-3">
@@ -44,7 +44,7 @@ export default function Pricing() {
         <div className="col-md-4">
           <div className="card pricing-card h-100 featured-card">
             <div className="card-body text-center">
-              <h5 className="card-title" style={{color:"#6c3bdf"}}>🚀 Premium Plan</h5>
+              <h5 className="card-title" style={{color:"#fff"}}>🚀 Premium Plan</h5>
               <h6 className="card-price">₹19,999 - ₹39,999</h6>
               <p className="card-text">Great for growing businesses & service providers.</p>
               <ul className="list-unstyled text-start ps-3">
@@ -63,7 +63,7 @@ export default function Pricing() {
         <div className="col-md-4">
           <div className="card pricing-card h-100">
             <div className="card-body text-center">
-              <h5 className="card-title" style={{color:"#6c3bdf"}}>💎 Custom Plan</h5>
+              <h5 className="card-title" style={{color:"#fff"}}>💎 Custom Plan</h5>
               <h6 className="card-price">Custom Quote</h6>
               <p className="card-text">Tailored for your unique business needs.</p>
               <ul className="list-unstyled text-start ps-3">

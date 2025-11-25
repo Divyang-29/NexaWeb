@@ -35,7 +35,7 @@ export default function Support() {
 
     try {
       const res = await fetch(
-        `${import.meta.env.VITE_API_URL}/nexaweb/contact-us`,
+        `${import.meta.env.VITE_API_URL}/contact-us`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

@@ -18,7 +18,7 @@ export default function Navigation() {
       <div>
         <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <Link class="navbar-brand" to="/nexaweb/home">
+            <Link class="navbar-brand" to="/home">
               <img src={logo} alt="logo image" className="logo" />
             </Link>
             <button
@@ -35,7 +35,7 @@ export default function Navigation() {
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <Link class="nav-link" aria-current="page" to="/nexaweb/home" onClick={()=>HandelMenuClick(0)}>
+                  <Link class="nav-link" aria-current="page" to="/home" onClick={()=>HandelMenuClick(0)}>
                     <p
                       className={
                         selectedMenu === 0 ? activatedMenuClass : menuClass
@@ -46,7 +46,7 @@ export default function Navigation() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/nexaweb/product" onClick={()=>HandelMenuClick(1)}>
+                  <Link class="nav-link" to="/product" onClick={()=>HandelMenuClick(1)}>
                     <p
                       className={
                         selectedMenu === 1 ? activatedMenuClass : menuClass
@@ -57,7 +57,7 @@ export default function Navigation() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/nexaweb/contact-us" onClick={()=>HandelMenuClick(2)}>
+                  <Link class="nav-link" to="/contact-us" onClick={()=>HandelMenuClick(2)}>
                     <p
                       className={
                         selectedMenu === 2 ? activatedMenuClass : menuClass

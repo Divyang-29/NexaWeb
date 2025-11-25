@@ -15,9 +15,9 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/nexaweb/home" element={<Home />}></Route>
-            <Route path="/nexaweb/product" element={<Product />}></Route>
-            <Route path="/nexaweb/contact-us" element={<Support />}></Route>
+            <Route path="/home" element={<Home />}></Route>
+            <Route path="/product" element={<Product />}></Route>
+            <Route path="/contact-us" element={<Support />}></Route>
           </Routes>
         </div>
 

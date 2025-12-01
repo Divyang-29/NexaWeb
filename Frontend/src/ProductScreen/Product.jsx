@@ -1,7 +1,7 @@
 import "./Product.css";
 import project1 from "../assets/Images/wanderlust.webp";
-import project2 from "../assets/Images/coding-1-47.png";
-import project3 from "../assets/Images/coding-1-47.png";
+import project2 from "../assets/Images/chatgpt.webp";
+import project3 from "../assets/Images/zerodha-clone.webp";
 
 import product1 from "../assets/Images/single.webp"; // basic
 import product2 from "../assets/Images/double.webp"; // moderate
@@ -24,12 +24,12 @@ export default function Product() {
       <div className="row g-4 mt-1 mb-5">
         {[
           { img: project1, title: "Property Rental Website", link: "https://wanderlust-z8j6.onrender.com" },
-          { img: project2, title: "Business Website", link: "#" },
-          { img: project3, title: "Portfolio Website", link: "#" },
+          { img: project2, title: "Ai model", link: "https://chatgpt-clone-1-wr3g.onrender.com/" },
+          { img: project3, title: "Trading Platform", link: "https://zerodha-clone-frontend-702d.onrender.com/" },
         ].map((item, i) => (
           <div className="col-12 col-sm-6 col-md-4" key={i}>
             <div className="card product-card h-100">
-              <img src={item.img} className="card-img-top" alt={item.title} />
+              <img src={item.img} className="card-img-top" alt={item.title} style={{height:"280px"}}/>
               <div className="card-body text-center">
                 <h5 className="card-title" style={{color:"#6c3bdf"}}>{item.title}</h5>
                 <a href={item.link} className="btn btn-primary btn-sm" style={{backgroundColor:"transparent",border:"none"}}>

@@ -6,14 +6,14 @@
 .product-card {
   border-radius: 12px;
   overflow: hidden;
-  border: 1px solid #e3e3e3;
+  border: 1px solid #321b52 !important;
   transition: all 0.3s ease;
-  background: #fff;
+  background-color: #1b102b;
 }
 
 .product-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
 }
 
 .product-card img {
@@ -23,6 +23,5 @@
 
 .product-price {
   font-weight: bold;
-  color: #1b7ced;
   margin-bottom: 8px;
 }

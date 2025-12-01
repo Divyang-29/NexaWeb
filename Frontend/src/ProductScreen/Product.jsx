@@ -23,16 +23,41 @@ export default function Product() {
       <h4 className="section-title">🚀 Recent Projects</h4>
       <div className="row g-4 mt-1 mb-5">
         {[
-          { img: project1, title: "Property Rental Website", link: "https://wanderlust-z8j6.onrender.com" },
-          { img: project2, title: "Ai model", link: "https://chatgpt-clone-1-wr3g.onrender.com/" },
-          { img: project3, title: "Trading Platform", link: "https://zerodha-clone-frontend-702d.onrender.com/" },
+          {
+            img: project1,
+            title: "Property Rental Website",
+            link: "https://wanderlust-z8j6.onrender.com",
+          },
+          {
+            img: project2,
+            title: "Ai model",
+            link: "https://chatgpt-clone-1-wr3g.onrender.com/",
+          },
+          {
+            img: project3,
+            title: "Trading Platform",
+            link: "https://zerodha-clone-frontend-702d.onrender.com/",
+          },
         ].map((item, i) => (
           <div className="col-12 col-sm-6 col-md-4" key={i}>
             <div className="card product-card h-100">
-              <img src={item.img} className="card-img-top" alt={item.title} style={{height:"280px"}}/>
+              <img
+                src={item.img}
+                className="card-img-top"
+                alt={item.title}
+                style={{ height: "280px" }}
+              />
               <div className="card-body text-center">
-                <h5 className="card-title" style={{color:"#6c3bdf"}}>{item.title}</h5>
-                <a href={item.link} className="btn btn-primary btn-sm" style={{backgroundColor:"transparent",border:"none"}}>
+                <h5 className="card-title" style={{ color: "#6c3bdf" }}>
+                  {item.title}
+                </h5>
+                <a
+                  href={item.link}
+                  className="btn btn-primary btn-sm"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ backgroundColor: "transparent", border: "none" }}
+                >
                   View Live Project
                 </a>
               </div>

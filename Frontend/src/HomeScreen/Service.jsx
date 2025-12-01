@@ -2,7 +2,7 @@ import "./Service.css";
 import SpotlightCard from "./SpotlightCard/SpotlightCard";
 
 import web from "../assets/Images/webDesign.png";
-import Support from "../assets/Images/bg-support.png";
+import Support from "../assets/Images/bg-support.webp";
 import webDev from "../assets/Images/webDev.png";
 import responsive from "../assets/Images/responsive.png";
 import Content from "../assets/Images/Content.png";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "./assets/Images/white-logo-withoutname.png";
+import logo from "./assets/Images/white-logo-withoutname.webp";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Required for collapse
 import "./Navigation.css";
 

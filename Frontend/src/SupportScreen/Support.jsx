@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SupportPage from "../assets/Images/bg-support.png";
+import SupportPage from "../assets/Images/bg-support.webp";
 import "./Support.css";
 
 export default function Support() {

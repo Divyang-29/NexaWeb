@@ -6,6 +6,7 @@ import Support from "./SupportScreen/Support";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./Footer";
 
+
 function App() {
   return (
     <div className="main-container">

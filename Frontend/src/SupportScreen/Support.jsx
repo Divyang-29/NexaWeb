@@ -65,7 +65,7 @@ export default function Support() {
   };
 
   return (
-    <div className="support-container container py-5">
+    <div className="support-container container py-5" style={{marginTop:"80px"}}>
       <div className="row align-items-center">
         <h2 className="text-center fw-bold mb-2" style={{ color: "#6c3bdf" }}>
           Contact Support

@@ -63,7 +63,7 @@
 /* ------------------------- */
 /* MOBILE RESPONSIVE FIXES  */
 /* ------------------------- */
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   .navbar {
     height: 70px;
     padding: 0 !important;

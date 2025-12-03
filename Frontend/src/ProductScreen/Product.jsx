@@ -13,7 +13,7 @@ export default function Product() {
       {/* ===== Page Header ===== */}
       <div className="text-center mb-5 mt-5">
         <h2 className="fw-bold">Our Work & Products</h2>
-        <p className="text-muted">
+        <p className="">
           Explore our past projects and Nexaweb’s ready-to-use digital
           solutions.
         </p>

@@ -69,6 +69,14 @@
     padding: 0 !important;
   }
 
+  .navbar-collapse {
+    background: rgba(5, 0, 15, 0.7); /* translucent */
+    backdrop-filter: blur(10px); /* blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    padding: 10px 0;
+    border-top: 1px solid #321b52;
+  }
+
   .navbar-brand {
     display: flex;
     align-items: center;
